@@ -1,6 +1,6 @@
-name = "Industrial Revolution - Early Access"
-version = "0.2" 
-description = "Industrial Revolution is a mod that adds Factorio-esque power management and automation. Also a Winona rework. Yell at me if this is still here, along with '-Early'"
+name = "Industrial Revolution - Pre-Release 0.1"
+version = "Pre-Release 0.1" 
+description = "Industrial Revolution is a mod that adds Factorio-esque power management and automation. Also a Winona rework. "
 author = "Atoba Azul, WormiestWood, SomeFuckinPeep and SageTacobutt"
 forumthread = ""
 api_version = 10
