@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0">
+        <file id="0" name="m7-0.png" width="56" height="136" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="winonabatterymed_core.png" width="251" height="169" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="winonabatterymed_wire2.png" width="101" height="172" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="winonabatterymed_wire1.png" width="106" height="191" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="m6-0.png" width="56" height="136" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="m2-0.png" width="56" height="136" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="m1-0.png" width="56" height="136" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="winona_battery_med">
+        <animation id="0" name="idle_charge" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="winonabatterymed_wire1" folder="0" file="3" abs_x="-198.462821" abs_y="145.363811" abs_pivot_x="0" abs_pivot_y="1" abs_angle="340.997978" abs_scale_x="2.102074" abs_scale_y="1.461913" abs_a="1" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" name="winonabatterymed_core" folder="0" file="1" abs_x="-204.704495" abs_y="207.003009" abs_pivot_x="0" abs_pivot_y="1" abs_angle="5.513714" abs_scale_x="1.591128" abs_scale_y="1.592573" abs_a="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" name="winonabatterymed_wire2" folder="0" file="2" abs_x="89.210784" abs_y="72.618497" abs_pivot_x="0.289216" abs_pivot_y="0.881503" abs_angle="31.350808" abs_scale_x="2.002916" abs_scale_y="2.002916" abs_a="1" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" name="m2-0" folder="0" file="5" abs_x="29" abs_y="115" abs_pivot_x="0" abs_pivot_y="1" abs_angle="268.781125" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="winonabatterymed_core">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-204.704495" y="207.003009" angle="5.513714" scale_x="1.591128" scale_y="1.592573"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="winonabatterymed_wire2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="89.210784" y="72.618497" pivot_x="0.289216" pivot_y="0.881503" angle="31.350808" scale_x="2.002916" scale_y="2.002916"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="winonabatterymed_wire1">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-198.462821" y="145.363811" angle="340.997978" scale_x="2.102074" scale_y="1.461913"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="m2-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="29" y="115" angle="268.781125"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idle_empty" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="winonabatterymed_wire1" folder="0" file="3" abs_x="-198.462821" abs_y="145.363811" abs_pivot_x="0" abs_pivot_y="1" abs_angle="340.997978" abs_scale_x="2.102074" abs_scale_y="1.461913" abs_a="1" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" name="winonabatterymed_core" folder="0" file="1" abs_x="-204.704495" abs_y="207.003009" abs_pivot_x="0" abs_pivot_y="1" abs_angle="5.513714" abs_scale_x="1.591128" abs_scale_y="1.592573" abs_a="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" name="winonabatterymed_wire2" folder="0" file="2" abs_x="89.210784" abs_y="72.618497" abs_pivot_x="0.289216" abs_pivot_y="0.881503" abs_angle="31.350808" abs_scale_x="2.002916" abs_scale_y="2.002916" abs_a="1" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" name="m1-0" folder="0" file="6" abs_x="32" abs_y="108" abs_pivot_x="0" abs_pivot_y="1" abs_angle="266.905942" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="winonabatterymed_core">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-204.704495" y="207.003009" angle="5.513714" scale_x="1.591128" scale_y="1.592573"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="winonabatterymed_wire2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="89.210784" y="72.618497" pivot_x="0.289216" pivot_y="0.881503" angle="31.350808" scale_x="2.002916" scale_y="2.002916"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="winonabatterymed_wire1">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-198.462821" y="145.363811" angle="340.997978" scale_x="2.102074" scale_y="1.461913"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="m1-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="32" y="108" angle="266.905942" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="hit" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="winonabatterymed_wire1" folder="0" file="3" abs_x="-198.462821" abs_y="145.363811" abs_pivot_x="0" abs_pivot_y="1" abs_angle="340.997978" abs_scale_x="2.102074" abs_scale_y="1.461913" abs_a="1" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" name="winonabatterymed_core" folder="0" file="1" abs_x="-204.704495" abs_y="207.003009" abs_pivot_x="0" abs_pivot_y="1" abs_angle="5.513714" abs_scale_x="1.591128" abs_scale_y="1.592573" abs_a="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" name="winonabatterymed_wire2" folder="0" file="2" abs_x="89.210784" abs_y="72.618497" abs_pivot_x="0.289216" abs_pivot_y="0.881503" abs_angle="31.350808" abs_scale_x="2.002916" abs_scale_y="2.002916" abs_a="1" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" name="m1-0" folder="0" file="6" abs_x="32" abs_y="108" abs_pivot_x="0" abs_pivot_y="1" abs_angle="266.905942" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="winonabatterymed_core">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-204.704495" y="207.003009" angle="5.513714" scale_x="1.591128" scale_y="1.592573"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="winonabatterymed_wire2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="89.210784" y="72.618497" pivot_x="0.289216" pivot_y="0.881503" angle="31.350808" scale_x="2.002916" scale_y="2.002916"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="winonabatterymed_wire1">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-198.462821" y="145.363811" angle="340.997978" scale_x="2.102074" scale_y="1.461913"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="m1-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="32" y="108" angle="266.905942" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="idle_placer" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="winonabatterymed_wire1" folder="0" file="3" abs_x="-198.462821" abs_y="145.363811" abs_pivot_x="0" abs_pivot_y="1" abs_angle="340.997978" abs_scale_x="2.102074" abs_scale_y="1.461913" abs_a="1" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" name="winonabatterymed_core" folder="0" file="1" abs_x="-204.704495" abs_y="207.003009" abs_pivot_x="0" abs_pivot_y="1" abs_angle="5.513714" abs_scale_x="1.591128" abs_scale_y="1.592573" abs_a="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" name="winonabatterymed_wire2" folder="0" file="2" abs_x="89.210784" abs_y="72.618497" abs_pivot_x="0.289216" abs_pivot_y="0.881503" abs_angle="31.350808" abs_scale_x="2.002916" abs_scale_y="2.002916" abs_a="1" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" name="m1-0" folder="0" file="6" abs_x="32" abs_y="108" abs_pivot_x="0" abs_pivot_y="1" abs_angle="266.905942" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="winonabatterymed_core">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-204.704495" y="207.003009" angle="5.513714" scale_x="1.591128" scale_y="1.592573"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="winonabatterymed_wire2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="89.210784" y="72.618497" pivot_x="0.289216" pivot_y="0.881503" angle="31.350808" scale_x="2.002916" scale_y="2.002916"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="winonabatterymed_wire1">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-198.462821" y="145.363811" angle="340.997978" scale_x="2.102074" scale_y="1.461913"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="m1-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="32" y="108" angle="266.905942" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="place" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="winonabatterymed_wire1" folder="0" file="3" abs_x="-198.462821" abs_y="145.363811" abs_pivot_x="0" abs_pivot_y="1" abs_angle="340.997978" abs_scale_x="2.102074" abs_scale_y="1.461913" abs_a="1" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" name="winonabatterymed_core" folder="0" file="1" abs_x="-204.704495" abs_y="207.003009" abs_pivot_x="0" abs_pivot_y="1" abs_angle="5.513714" abs_scale_x="1.591128" abs_scale_y="1.592573" abs_a="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" name="winonabatterymed_wire2" folder="0" file="2" abs_x="89.210784" abs_y="72.618497" abs_pivot_x="0.289216" abs_pivot_y="0.881503" abs_angle="31.350808" abs_scale_x="2.002916" abs_scale_y="2.002916" abs_a="1" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" name="m1-0" folder="0" file="6" abs_x="32" abs_y="108" abs_pivot_x="0" abs_pivot_y="1" abs_angle="266.905942" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="winonabatterymed_core">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-204.704495" y="207.003009" angle="5.513714" scale_x="1.591128" scale_y="1.592573"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="winonabatterymed_wire2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="89.210784" y="72.618497" pivot_x="0.289216" pivot_y="0.881503" angle="31.350808" scale_x="2.002916" scale_y="2.002916"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="winonabatterymed_wire1">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-198.462821" y="145.363811" angle="340.997978" scale_x="2.102074" scale_y="1.461913"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="m1-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="32" y="108" angle="266.905942" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
