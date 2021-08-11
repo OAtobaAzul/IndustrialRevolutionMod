@@ -15,14 +15,14 @@ priority = 10
                
 configuration_options = {
     {
-        name = "SPOTLIGHT_BUFF_TEMP",
-        label = "Buff Spotlight?",
+        name = "VANILLA_MACHINERY_TEMP",
+        label = "Buff Vanilla Machines?",
         options =    {
                         {description = "False", data = 0},
                         {description = "True",   data = 1},
                     },
         default = 1,
-        hover = "Choose wheter to buff the Spotlight"
+        hover = "Choose wheter to buff Winona's default machines."
    
  },
 
@@ -36,17 +36,7 @@ configuration_options = {
         hover = "Choose wheter to buff Walls"
    
  },
-    {
-        name = "CATAPULT_BUFF_TEMP",
-        label = "Buff Catapult?",
-        options =    {
-                        {description = "False", data = 0},
-                        {description = "True",   data = 1},
-                    },
-        default = 1,
-        hover = "Choose wheter to buff the Catapult"
-   
- },
+  
 {
         name = "WINONA_REWORK", --todo: split it more.
         label = "Enable the Winona rework?",
