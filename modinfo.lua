@@ -19,10 +19,10 @@ priority = 10
 configuration_options = {
         {
         name = "VANILLA_MACHINERY_TEMP",
-        label = "Buff Vanilla Machines?",
+        label = "Vanilla machine buff",
         options =    {
-                        {description = "False", data = 0},
-                        {description = "True",   data = 1},
+                        {description = "Disabled", data = 0},
+                        {description = "Enabled",   data = 1},
                     },
         default = 1,
         hover = "Choose wheter to buff Winona's default machines."
@@ -31,10 +31,10 @@ configuration_options = {
         {
 
         name = "WALL_BUFF",
-        label = "Buff Walls?",
+        label = "Wall buff",
         options =    {
-                        {description = "False", data = 0},
-                        {description = "True",   data = 1},
+                        {description = "Disabled", data = 0},
+                        {description = "Enabled",   data = 1},
                      },
         default = 1,
         hover = "Choose wheter to buff Walls"
@@ -42,10 +42,10 @@ configuration_options = {
         },
         {
         name = "WINONA_REWORK", --todo: split it more.
-        label = "Enable the Winona rework?",
+        label = "Winona rework",
         options =    {
-                        {description = "False", data = 0},
-                        {description = "True",   data = 1},
+                        {description = "Disabled", data = 0},
+                        {description = "Enabled",   data = 1},
                      },
         default = 1,
         hover = "Choose wheter to Enable the Winona rework"
