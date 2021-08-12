@@ -58,6 +58,7 @@ GLOBAL.TUNING.WINONA_SPOTLIGHT_MAX_RANGE = 40
         GLOBAL.TUNING.WINONA_CATAPULT_AOE_RADIUS = 1.25
 end
 local wallBuff = GetModConfigData("WALL_BUFF")
+if wallBuff = 1 then
 AddPrefabPostInit("wall_hay",function(inst)
 inst:AddTag("companion")
 end
