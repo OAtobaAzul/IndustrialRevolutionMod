@@ -29,15 +29,11 @@ local winonaRework = GetModConfigData("WINONA_REWORK")
     AddPrefabPostInit("winona",function(inst)
       if inst ~= nil and inst.components.sanity ~= nil then
       inst.components.sanity.only_magic_dapperness = true 
+      inst:RemoveTag("handyperson") 
+
     end
 end
 )
-
-  AddPrefabPostInit("winona",function(inst)
-    inst:RemoveTag("handyperson") 
-  end)
-end
-
 
 
 
