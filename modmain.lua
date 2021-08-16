@@ -26,15 +26,41 @@ local winonaRework = GetModConfigData("WINONA_REWORK")
   if winonaRework == 1 then
     GLOBAL.TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WINONA = {"sewing_tape", "sewing_tape", "sewing_tape", "sewing_tape", "sewing_tape", "sewing_tape"}
 
+
+--Credit to Skully!
+local function CustomSanityFn(inst, dt)
+    local dapperhat = inst.components.inventory:GetEquippedItem(GLOBAL.EQUIPSLOTS.HEAD)
+    local dapperbody = inst.components.inventory:GetEquippedItem(GLOBAL.EQUIPSLOTS.BODY)
+    local dapperhand = inst.components.inventory:GetEquippedItem(GLOBAL.EQUIPSLOTS.HAND)
+    local dapperness = 0
+
+    if dapperhat and dapperhat.components.equippable.dapperness and dapperhat.components.equippable.dapperness > 0 then
+        dapperness = (dapperhat.components.equippable.dapperness * -1)
+    end
+    if dapperbody and dapperbody.components.equippable.dapperness and dapperbody.components.equippable.dapperness > 0 then
+        dapperness =  dapperness - dapperbody.components.equippable.dapperness 
+    end
+    if dapperhand and dapperhand.components.equippable.dapperhand and dapperhand.components.equippable.dapperness > 0 then
+        dapperness =  dapperness - dapperhand.components.equippable.dapperness 
+    end
+    return dapperness
+end
+
+
+
     AddPrefabPostInit("winona",function(inst)
       if inst ~= nil and inst.components.sanity ~= nil then
-      inst.components.sanity.only_magic_dapperness = true 
-      inst:RemoveTag("handyperson") 
+        inst.components.sanity.only_magic_dapperness = true 
+        inst:RemoveTag("handyperson") 
+        
+      if not GLOBAL.TheWorld.ismastersim then
+        return inst
+      end
 
-    end
-end
-)
-
+      inst.components.sanity.custom_rate_fn = CustomSanityFn
+      end
+    end)
+  end
 
 
 --machinery Tab shenanigans
@@ -84,8 +110,8 @@ if wallBuff == 1 then
     inst:AddTag("companion")
   end)
 
-end		
-		
+end   
+    
 
 --misc
 GLOBAL.STRINGS.RECIPE_DESC.SEWING_TAPE = "Keeps things together."
