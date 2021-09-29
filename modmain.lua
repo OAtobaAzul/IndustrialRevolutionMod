@@ -4,6 +4,8 @@ Assets =
    Asset("ATLAS", "images/inventoryimages/machinerytabicon.xml"),
    Asset("IMAGE", "images/inventoryimages/testgen.tex"),
    Asset("ATLAS", "images/inventoryimages/testgen.xml"),
+   Asset("IMAGE", "images/inventoryimages/t1tech_prototyper.tex"),
+   Asset("ATLAS", "images/inventoryimages/t1tech_prototyper.xml"),   
 }
 
 
@@ -115,4 +117,5 @@ end
 
 --misc
 GLOBAL.STRINGS.RECIPE_DESC.SEWING_TAPE = "Keeps things together."
-
+GLOBAL.STRINGS.RECIPE_DESC.T1TECH_PROTOTYPER = "Learn the universe of electricity!"
+GLOBAL.STRINGS.NAMES.T1TECH_PROTOTYPER = "Engineering Table"
